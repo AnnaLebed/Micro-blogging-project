@@ -1,0 +1,141 @@
+.App {
+  position: absolute;
+  width: 600px;
+  height: 1024px;
+  background: #15202B;
+  left: 367px;
+  top: 5px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.tweet-form {
+  /* position: absolute; */
+  width: 600px;
+  height: 180px;
+  left: 367px;
+  top: 5px;
+
+  border: 2px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.tweet-input {
+  position: absolute;
+  /* width: 80%;
+  height: 41px; */
+  left: 16px;
+  top: 25px;
+  background: #15202B;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #CCCCCC;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+
+}
+
+.button {
+  position: absolute;
+  width: 68px;
+  height: 34px;
+  left: 522px;
+  top: 126px;
+
+  background: #007BFF;
+  border-radius: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.tweet-box { 
+  width: 600px;
+  height: 100px;
+  /* left: 367px;
+  top: 205px; */
+  background: #343A40;
+  border-radius: 6px;
+  color: white;
+  padding:20px;
+  margin-top: 20px;
+}
+
+.my-div{
+  background-color:white;
+}
+
+.alert-box{
+  position: absolute;
+  left: 30px;
+  top: 125px;
+  width: 338px;
+  height:29px;
+  padding:1px;
+}
+
+.date-position{
+  position: absolute;
+  width: 180px;
+  height: 16px;
+  left: 350px;
+  top: 223px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #6C757D;
+}
+
+.name-position{
+  position: absolute;
+  width: 162px;
+  height: 12px;
+  left: 20px;
+  top: 223px;;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #6C757D;
+}
+
+.list-style{
+  list-style: none;
+  padding-left: 0;
+}
