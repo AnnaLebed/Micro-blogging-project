@@ -22,7 +22,8 @@ export default class TweetForm extends Component {
   handleTweet(event) {
     // const value  = {tweet: event.target.value }
     console.log(event.target.value);
-    this.setState({ tweet: event.target.value });  
+    this.setState({ tweet: event.target.value }); 
+    
     // this.setState ({tweet: {content:event.target.value}}); 
     const charCount = event.target.value.length;
     if (charCount > 140) {
@@ -30,8 +31,7 @@ export default class TweetForm extends Component {
         disableButton: true,
         maxLength: true,
       });
-    }
-      
+    }      
   }
 
   handleOnSubmit(event) {
@@ -39,6 +39,8 @@ export default class TweetForm extends Component {
     console.log(`The form was submitted with ${this.state.tweet}`);
     this.props.onTweetFormSubmit(this.state.tweet);
     this.setState({ tweet: "" });
+    // this.setState({ date: "" });
+    this.setState({ userName: "" });
     // this.state({time: new Date()});
   }
 

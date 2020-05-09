@@ -75,10 +75,11 @@
 }
 
 .tweet-box { 
+  /* position: absolute; */
   width: 600px;
   height: 100px;
-  /* left: 367px;
-  top: 205px; */
+  /* left: 367px; */
+  /* top: 205px;  */
   background: #343A40;
   border-radius: 6px;
   color: white;
@@ -100,11 +101,11 @@
 }
 
 .date-position{
-  position: absolute;
+  /* position: absolute; */
   width: 180px;
   height: 16px;
-  left: 350px;
-  top: 223px;
+  /* left: 350px;
+  top: 223px; */
 
   font-family: Roboto;
   font-style: normal;
@@ -138,4 +139,18 @@
 .list-style{
   list-style: none;
   padding-left: 0;
+}
+
+.tweet-date-position{  
+  left:380px;
+  top: 15px;
+  color: #6C757D;
+
+}
+
+.tweet-name-position{  
+  left:20px;
+  top: 15px;
+  color: #6C757D;
+
 }
